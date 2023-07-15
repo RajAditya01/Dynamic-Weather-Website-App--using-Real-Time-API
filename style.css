@@ -79,11 +79,11 @@ html {
 
 @keyframes drift {
   from {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   from {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -108,11 +108,11 @@ html {
 
 @keyframes rotates {
   from {
-      transform: translateX(-0.5rem);
+    transform: translateX(-0.5rem);
   }
 
   to {
-      transform: translateX(0.5rem);
+    transform: translateX(0.5rem);
   }
 }
 
@@ -154,40 +154,40 @@ html {
 
 @keyframes fas-anime {
   from {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   to {
-      transform: scale(1.5);
+    transform: scale(1.5);
   }
 }
 
 @media (max-width: 600px) {
   .box {
-      width: 90vw;
-      height: 80vh;
+    width: 90vw;
+    height: 80vh;
   }
 
   .wave {
-      top: 85%;
+    top: 85%;
   }
 
   #weathercon {
-      font-size: 5em;
+    font-size: 5em;
   }
 
   .info {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (max-height: 500px) {
   .box {
-      height: 80vh;
+    height: 80vh;
   }
 
   .wave {
-      top: 115%;
+    top: 115%;
   }
 }
 
